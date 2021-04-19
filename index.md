@@ -17,7 +17,7 @@ margin: 0;
 
 .header{
 padding: 80px;
-background-image: url(../pexels-elijah-o'donnell-3473569.jpg/);
+background-image: url(https://github.com/naomi1801/naomi1801.github.io/blob/main/pexels-elijah-o'donnell-3473569.jpg/);
 background-repeat: no-repeat;
 background-position: fit;
 }
@@ -253,7 +253,7 @@ background-color: #301934;
 
 
 <div class="navbar">
-  <a href="#" class="left"> My Profile </a>
+  <a href="https://naomi1801.github.io/" class="left"> My Profile </a>
   <a href="file:///C:/Users/NAOMI/Desktop/Internship%20files/Naomi_George_resume.pdf" target="_blank"> Resume </a>
   <a href="https://www.linkedin.com/in/naomi-george-2692a9199/" target="_blank">LinkedIn</a>
   <a href="https://www.instagram.com/n_.o_.m/" target="_blank">Instagram</a>
@@ -263,7 +263,7 @@ background-color: #301934;
 <div class="row"> 
  <div class="main">
   <h2 style="font-family: Cambria, serif;text-align: center; text-decoration: underline;">ABOUT ME</h2>
-        <img id="myImg" src="C:\Users\NAOMI\Downloads\WhatsApp Image 2021-04-13 at 19.09.09.jpeg" alt="Naomi George" style="width:100%;max-width:300px; margin: 0 510px;">
+        <img id="myImg" src="https://github.com/naomi1801/naomi1801.github.io/blob/main/WhatsApp%20Image%202021-04-13%20at%2019.09.09.jpeg" alt="Naomi George" style="width:100%;max-width:300px; margin: 0 510px;">
        <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
@@ -301,21 +301,21 @@ background-color: #301934;
 <div class="table">
  <div class="column"> 
   <div class="card">
-   <h5 style="font-family: Cambria, serif; font-size: 22px;"><img src="C:\Users\NAOMI\Desktop\naomi1801.github.io\code_white_24dp.svg" alt="code_icon" style="float:left;margin: -6px 0 10px 180px; width:42px;height:42px;">Front-end Development:</h5>
+   <h5 style="font-family: Cambria, serif; font-size: 22px;"><img src="https://github.com/naomi1801/naomi1801.github.io/blob/main/code_white_24dp.svg" alt="code_icon" style="float:left;margin: -6px 0 10px 180px; width:42px;height:42px;">Front-end Development:</h5>
     <p style="font-size: 17px;"><i>I am familiar with HTML,CSS and JavaScript and worked with them in various projects.</i></p>
   </div>
  </div>
 
  <div class="column">
   <div class="card">
-   <h5 style="font-family: Cambria, serif; font-size: 22px;"><img src="C:\Users\NAOMI\Desktop\naomi1801.github.io\star_white_24dp.svg" alt="code_icon" style="float:right;margin: -6px 180px 10px 0; width:42px;height:42px;">Databases:</h5>
+   <h5 style="font-family: Cambria, serif; font-size: 22px;"><img src="https://github.com/naomi1801/naomi1801.github.io/blob/main/star_white_24dp.svg" alt="code_icon" style="float:right;margin: -6px 180px 10px 0; width:42px;height:42px;">Databases:</h5>
     <p style="font-size: 18px;"><i>I am very good with MySQL. And I used it in different projects.</i></p>
   </div>
  </div>
 </div>
 
 <div class="footer">
-        <img src="file:///C:/Users/NAOMI/Desktop/naomi1801.github.io/faria-anzum-ONK9IlKizS4-unsplash.jpg" alt="Footer Logo">
+        <img src="https://github.com/naomi1801/naomi1801.github.io/blob/main/faria-anzum-ONK9IlKizS4-unsplash.jpg" alt="Footer Logo">
         <span>My Profile<br>Copyright &copy; 2021-2030 </span>
 </div>
 
