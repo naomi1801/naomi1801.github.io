@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My_Portfolio</title>
+
+<style>
+*{
+box-sizing: border-box;
+}
+
+body{
+font-family: Arial, Candara, sans-serif;
+margin: 0;
+}
+
+.header{
+padding: 80px;
+background-image: url(../pexels-elijah-o'donnell-3473569.jpg/);
+background-repeat: no-repeat;
+background-position: fit;
+}
+
+.header-content{
+text-align: center;
+color: white;
+}
+
+.header h1{
+font-size: 40px;
+font-family: Candara, sans-serif;
+}
+
+.header p{
+font-size: 20px;
+font-family: Candara, sans-serif;
+}
+
+.navbar{
+overflow: hidden;
+background-color: #333;
+}
+
+.navbar a{
+float: right;
+display: block;
+colour:white;
+font-family: corbel,sans-serif;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+.navbar a:hover{
+ background-color: #ddd;
+ color:black;
+}
+
+.navbar a:link{
+ background-color: #333;
+ color: white;
+}
+
+.navbar a:visited{
+ background-color: #333;
+ color: white;
+}
+
+.navbar a.left {float: left;}
+
+.row{
+ display:flex;
+ flex-wrap: wrap;
+ text-align: center;
+ background-image: linear-gradient(to right,#000000, #301934);
+}
+
+
+.main{
+flex: 70%;
+color: white;
+padding: 20px;
+}
+
+.main h2{ letter-spacing: 5px;}
+ 
+.main h5{ 
+letter-spacing: 2px;
+font-size: 20px; 
+}
+
+.main p{
+font-family: corbel,sans-serif;
+color: white;
+font-size: 20px;
+border-radius: 5px;
+padding: 15px;
+box-shadow: 0px 8px 12px #111;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+  background-color: #301934;
+}
+
+/* Remove extra left and right margins, due to padding */
+.table {margin: 0 -10px;
+background-color: #301934;}
+
+/* Clear floats after the columns */
+.table:after {
+  content: "";
+  display: table;
+  clear: both;
+background-color: #301934;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+background-color: #301934;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  text-align: center;
+  background-image: linear-gradient(to right,#000000, #301934);
+  color: white;
+  font-family: corbel,sans-serif;
+  box-shadow: 2px 8px 12px #000;
+}
+
+#myImg {
+  image-position: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: auto; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 600px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 400px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
+.footer   {
+  background: #000;
+  color: #777;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer img   {
+  display: block;
+  border-radius: 50px;
+  width: 50px;
+  margin: 0 auto 10px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+   <h1> Hi! I'm Naomi! </h1>
+   <p> And this is my Portfolio</p>
+ </div>
+
+
+<div class="navbar">
+  <a href="#" class="left"> My Profile </a>
+  <a href="file:///C:/Users/NAOMI/Desktop/Internship%20files/Naomi_George_resume.pdf" target="_blank"> Resume </a>
+  <a href="https://www.linkedin.com/in/naomi-george-2692a9199/" target="_blank">LinkedIn</a>
+  <a href="https://www.instagram.com/n_.o_.m/" target="_blank">Instagram</a>
+</div>
+
+
+<div class="row"> 
+ <div class="main">
+  <h2 style="font-family: Cambria, serif;text-align: center; text-decoration: underline;">ABOUT ME</h2>
+        <img id="myImg" src="C:\Users\NAOMI\Downloads\WhatsApp Image 2021-04-13 at 19.09.09.jpeg" alt="Naomi George" style="width:100%;max-width:300px; margin: 0 510px;">
+       <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+       </div>
+  <script style="line-spacing: 2.0;">
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("myImg");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+   modal.style.display = "none";
+ }
+ </script>
+    <p><i>I am a web developer currently pursuing my B.Tech from VIT University in Computer Science. I have worked using C++, Java, and Python, extensively and I know HTML, CSS, PHP, and JavaScript for website purposes and MySQL for databases.
+            Currently, I am working in the Null chapter as a Graphic Design lead and aim at polishing my skills.
+          I am interested in internship opportunities to work as a valued member of a team with inspiring individuals, enabling my technical growth.</i></p>
+      <h2 style="text-align: center; font-family: Cambria, serif; font-size: 27px;text-decoration: underline;">SKILLS HIGHLIGHT</h2>
+</div>
+</div>
+
+<div class="table">
+ <div class="column"> 
+  <div class="card">
+   <h5 style="font-family: Cambria, serif; font-size: 22px;"><img src="C:\Users\NAOMI\Desktop\naomi1801.github.io\code_white_24dp.svg" alt="code_icon" style="float:left;margin: -6px 0 10px 180px; width:42px;height:42px;">Front-end Development:</h5>
+    <p style="font-size: 17px;"><i>I am familiar with HTML,CSS and JavaScript and worked with them in various projects.</i></p>
+  </div>
+ </div>
+
+ <div class="column">
+  <div class="card">
+   <h5 style="font-family: Cambria, serif; font-size: 22px;"><img src="C:\Users\NAOMI\Desktop\naomi1801.github.io\star_white_24dp.svg" alt="code_icon" style="float:right;margin: -6px 180px 10px 0; width:42px;height:42px;">Databases:</h5>
+    <p style="font-size: 18px;"><i>I am very good with MySQL. And I used it in different projects.</i></p>
+  </div>
+ </div>
+</div>
+
+<div class="footer">
+        <img src="file:///C:/Users/NAOMI/Desktop/naomi1801.github.io/faria-anzum-ONK9IlKizS4-unsplash.jpg" alt="Footer Logo">
+        <span>My Profile<br>Copyright &copy; 2021-2030 </span>
+</div>
+
+</body>
+</html>
