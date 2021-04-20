@@ -11,8 +11,7 @@ margin: 0;
 .header{
 padding: 80px;
 background: url(../Images/pexels-elijah-o'donnell-3473569.jpg) no-repeat center top;
-  min-height: 80px;
-  position: relative;
+position: relative;
 }
 
 .header-content{
