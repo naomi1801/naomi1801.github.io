@@ -1,6 +1,7 @@
-<style>
+html,
 body{
-font-family: Arial, Candara, sans-serif;
+font-family: Candara, sans-serif;
+font-size: 100%;
 margin: 0;
 }
 
@@ -229,5 +230,3 @@ background-color: #301934;
   width: 50px;
   margin: 0 auto 10px;
 }
-
-</style>
