@@ -6,8 +6,7 @@ margin: 0;
 
 .header{
 padding: 80px;
-background: url(../Images/pexels-elijah-o'donnell-3473569.jpg) no-repeat center top;
-position: relative;
+background: url(../Images/pexels-elijah-o'donnell-3473569.jpg) no-repeat center;
 }
 
 .header-content{
