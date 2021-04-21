@@ -63,7 +63,7 @@ text-decoration: none;
 
 .main{
 flex: 70%;
-background-image: url(/Images/annie-spratt-nCn9gE5-1wU-unsplash.jpg);
+background-image: linear-gradient(to right,#000000, #301934);
 color: white;
 padding: 20px;
 }
