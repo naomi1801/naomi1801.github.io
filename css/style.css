@@ -6,12 +6,13 @@ font-size: 100%;
 
 .header{
 padding: 80px;
-background: url(../Images/pexels-elijah-o'donnell-3473569.jpg) no-repeat center;
+background-image: url(../Images/pexels-elijah-o'donnell-3473569.jpg) 
+background-repeat: no-repeat; 
+background-position: relative;
 }
 
 .header content{
 text-align: center;
-color: white;
 }
 
 .header h1{
