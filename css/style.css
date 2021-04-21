@@ -9,7 +9,8 @@ padding: 80px;
 display: block;
 background-image: url(/Images/annie-spratt-nCn9gE5-1wU-unsplash.jpg);
 background-repeat: no-repeat; 
-background-position: relative;
+background-position: relative; 
+background-size: fit;
 text-align: center;
 }
 
