@@ -9,9 +9,6 @@ padding: 80px;
 background-image: url(../Images/pexels-elijah-o'donnell-3473569.jpg) 
 background-repeat: no-repeat; 
 background-position: relative;
-}
-
-.header content{
 text-align: center;
 }
 
@@ -89,7 +86,7 @@ box-shadow: 0px 8px 12px #111;}
 .column {
   float: left;
   width: 50%;
-  padding: 0 5px;
+  padding: 0 4px;
   background-color: #301934;
 }
 
