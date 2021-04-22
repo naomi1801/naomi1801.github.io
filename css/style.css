@@ -10,8 +10,8 @@ padding: 80px;
 display: block;
 background-image: url(/Images/annie-spratt-nCn9gE5-1wU-unsplash.jpg);
 background-repeat: no-repeat; 
-background-position: top-left; 
-background-size: fit;
+background-position: center; 
+background-size: fill;
 text-align: center;
 }
 
@@ -27,12 +27,11 @@ font-family: Candara, sans-serif;
 
 .navbar{
 background-color: #333;
- display: block;
+ overlow:hidden;
 }
 
 .navbar a{
 float: right;
-display: block;
 colour:white;
 font-family: corbel,sans-serif;
 text-align: center;
