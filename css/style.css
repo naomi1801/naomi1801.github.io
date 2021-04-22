@@ -27,6 +27,7 @@ font-family: Candara, sans-serif;
 
 .navbar{
 background-color: #333;
+ display: block;
 }
 
 .navbar a{
