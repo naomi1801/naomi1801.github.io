@@ -11,7 +11,7 @@ display: block;
 background-image: url(/Images/annie-spratt-nCn9gE5-1wU-unsplash.jpg);
 background-repeat: no-repeat; 
 background-position: top-left; 
-background-size: fill;
+background-size: fit;
 text-align: center;
 }
 
@@ -91,7 +91,7 @@ box-shadow: 0px 8px 12px #111;}
 }
 
 /* Remove extra left and right margins, due to padding */
-.table {margin: 0;
+.table {
 background-color: #301934;}
 
 /* Clear floats after the columns */
