@@ -57,7 +57,7 @@ text-decoration: none;
 .navbar a.left {float: left;}
 
 .row{
- display: block;
+ display: flex;
  text-align: center;
 }
 
