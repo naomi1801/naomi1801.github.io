@@ -92,6 +92,7 @@ box-shadow: 0px 8px 12px #111;}
 
 /* Remove extra left and right margins, due to padding */
 .table {
+column-count: 2;
 background-color: #301934;}
 
 /* Clear floats after the columns */
