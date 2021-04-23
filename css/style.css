@@ -11,7 +11,7 @@ display: block;
 background-image: url(/Images/annie-spratt-nCn9gE5-1wU-unsplash.jpg);
 background-repeat: no-repeat; 
 background-position: center; 
-background-size: fill;
+background-size: cover;
 text-align: center;
 }
 
