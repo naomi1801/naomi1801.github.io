@@ -1,1 +1,352 @@
+html,
+body{
+font-family: Candara, sans-serif;
+margin : 0;
+font-size: 100%;
+}
 
+header{
+position: relative;
+height: 70vh;
+background-image: url(/Images/annie-spratt-nCn9gE5-1wU-unsplash.jpg);
+background-repeat: no-repeat; 
+background-position: center; 
+background-size: cover;
+}
+
+.overlay{
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8); 
+  z-index: 2;  }
+
+nav{
+  margin-left: 148px;
+  z-index: 3;
+}
+
+nav a{
+  
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+nav ul{
+  margin-top: 20px;
+  margin-right: 148px;
+}
+nav li img{
+  margin: 5px;
+}
+
+.container {
+  position : relative;
+  width : 80vh;
+  display : grid;
+  align-items : center;
+  justify-content : space-around;
+  padding : 20px;  
+}
+
+.container .card {
+  position: relative;
+  width: 70vw;
+  height: 70vh; 
+  background-color : #fff;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  border-radius : 15px;
+}
+
+.container .card .box{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 20px;
+}
+
+.container .card .image {
+  position : relative;
+  width : 350px;
+  height : 350px;
+  
+  top : 37px;
+  left: 40px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index : 1;
+}
+
+.container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.container .card .content {
+  position : relative;
+  top : 37px;
+  margin: 15px;
+  padding : 15px;
+  color : #111;
+  text-align : left;
+  overflow-x: none;
+    
+}
+.text h5{
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.text p{
+  color: rgba(0,0,0,0.4);
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.text i{
+  color: rgba(150, 0, 62, 0.863);
+  margin-right: 40px;
+}
+.text li{
+  margin-top: 10px;
+  color: rgba(0,0,0,0.5);
+}
+ul{
+  list-style-type: none;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+.profile{
+  display: grid;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.skill{
+  display: grid;
+  grid-template-rows: 45% 55%;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.text2{
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+.text2 h3{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgba(0,0,0,0.7);
+}
+.text2 p{
+  color: rgba(0,0,0,0.4);
+}
+.prog{
+  width: 160px;
+  height: 160px;
+  margin-left: 30px;
+}
+/* SKILL RANGE */
+.range{
+  display: flex;
+  flex-direction: auto;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  
+  margin-left: 38px;
+  padding: 20px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.inner{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+  inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+  -0.5px -0.5px 0px rgba(255,255,255,1),
+  0.5px 0.5px 0px rgba(0,0,0,0.15),
+  0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+
+#number{
+  font-weight: 600;
+  color: rgba(0,0,0,0.3);
+}
+
+circle{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 2s linear forwards;
+}
+
+svg{
+  position: relative;
+  top: -160px;
+  left: 39px;
+}
+
+@keyframes anim{
+  100%{
+    stroke-dashoffset: 60;
+  }
+}
+
+.circle-2{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim2 2s linear forwards;
+}
+
+.svg-2{
+  position: relative;
+  top: -158px;
+  left: 40px;
+}
+
+@keyframes anim2{
+  100%{
+    stroke-dashoffset: 94;
+  }
+}
+
+.circle-3{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim3 2s linear forwards;
+}
+
+.svg-3{
+  position: relative;
+  top: -159px;
+  left: 40px;
+}
+
+@keyframes anim3{
+  100%{
+    stroke-dashoffset: 80;
+  }
+}
+
+.circle-4{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim4 2s linear forwards;
+}
+
+.svg-4{
+  position: relative;
+  top: -159px;
+  left: 40px;
+}
+
+@keyframes anim4{
+  100%{
+    stroke-dashoffset: 259;
+  }
+}
+
+.circle-5{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim5 2s linear forwards;
+}
+
+.svg-5{
+  position: relative;
+  top: -159px;
+  left: 40px;
+}
+
+@keyframes anim5{
+  100%{
+    stroke-dashoffset: 377;
+  }
+}
+.circle-6{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim6 2s linear forwards;
+}
+
+.svg-6{
+  position: relative;
+  top: -159px;
+  left: 40px;
+}
+
+@keyframes anim6{
+  100%{
+    stroke-dashoffset: 354;
+  }
+}
+.circle-7{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim7 2s linear forwards;
+}
+
+.svg-7{
+  position: relative;
+  top: -159px;
+  left: 40px;
+}
+
+@keyframes anim7{
+  100%{
+    stroke-dashoffset: 424;
+  }
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 100%;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding-top: 50px;
+}
